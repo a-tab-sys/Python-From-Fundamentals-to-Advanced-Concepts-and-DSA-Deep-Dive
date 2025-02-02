@@ -1,0 +1,77 @@
+def new_game():
+    guesses=[]      #store guesses in empty list for now
+    corect_guesses=0    #=0 bc we have not guessed anything yet
+    question_num=1       #to represent the first question
+
+    for key in questions:
+        print("---------------------")
+        print(key)
+        for i in options[question_num-1]:
+            print(i)
+        guess=input("enter (A. B, C, D): ")
+        guess=guess.uppper()
+        guesses.append(guess)
+
+        correct_guesses += check_answer(questions.get(key), guess)
+        question_num+=1
+
+    display_score(correct_guesses, guesses)
+
+
+def check_answer(answer, guess):
+    if answer==guess:
+        print("Correct")
+        return 1
+    else:
+        print("wrong")
+        return 0
+
+def display_score(correct_guesses, guesses):
+    print("----------------------")
+    print("RESULTS")
+    print("Answers: ", end="")
+    for i in questions:
+        print(questions.get(i), end=" ")
+    print()
+
+    print("Guesses: ", end=" ")
+    for i in guesses:
+        print(i, end="")
+    print()
+
+    score = int((correct_guesses/len(questions))*100)
+    score=(correct_guesses/len(questions))*100
+
+    print("your score is: " +str(score)+ "%")
+
+
+
+def play_again():
+    response=input("do you ant to play again (yes/no): ")
+    response=response.upper()
+
+    if response=="YES":
+        return True
+    else:
+        return False
+
+
+questions = {       #we use a dictionary here named questions
+"who creaed python? ":"A",
+"What yr is python created? ":"B",
+"python is tributed to which comedy group?": "C",
+"is earth round? ":"A"}
+
+#need a collection to hold possible awners to above questions. we  use 2d list, could also use list of touples
+options = [["A. Guido van rossum", "B.Elon Must" , "C. Bill Gates", "D. Mark Zuckerburg"  ],
+           ["A. 1989", "B. 1991", "C. 2000", "D. 2016"]
+           ["A. Loely Island", "B. Smosh", "C. Monty Python", "D. SNL"]
+           ["A. True", "B. False", "C. sometimes", "D. whats earth?"]  ]
+
+new_game()
+
+
+while play_again():
+    new_game()
+print("bye")
+
