@@ -1,3 +1,4 @@
+import math
 #07 Math Functions
     #for starters, use import math at start of program to import the math module. if you type math. you will see a list of functions
 pi=-3.14

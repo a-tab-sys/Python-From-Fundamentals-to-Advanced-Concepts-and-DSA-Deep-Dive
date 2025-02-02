@@ -7,7 +7,7 @@ print("hello "+ name1)
 
     #default input is string, you need to type cast to diff data type to do calculations on inputted data
 age=input("How old are you?: ")
-#age= age + 1                                   wont work because you are doing calc on a string and int 
+#age= age + 1                           #wont work because you are doing calc on a string and int 
 print("your age is: "+age)
     
     #instead we can use type casting when accepting input

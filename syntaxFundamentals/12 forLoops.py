@@ -1,3 +1,5 @@
+import time
+
 #12 For Loops - will execute a limited amount of times
 for i in range(10):  #Excecutes 10 times
     print(i)         #shows 0-9
