@@ -18,6 +18,9 @@ print(capitals.values())    #prints all the values, not the keys
 
 capitals.update({'Germany': 'Berlin'})      #add key, value pair to ditionary
 capitals.update({'USA':'Las Vegas'})        #updates existing key with new value
+print(capitals.keys())  #prints all the keys, not the values
+print(capitals.values())  
+
 capitals.pop('China')       #remove pair associated with china
 capitals.clear()     #clears entire dictionary
 
