@@ -1,4 +1,4 @@
-# https://runestone.academy/ns/books/published/pythonds3/Introduction/ObjectOrientedProgramminginPythonDefiningClasses.html#inheritance-logic-gates-and-circuits
+
 class LogicGate:
 
     def __init__(self, lbl):        #method
@@ -130,3 +130,5 @@ def main():
     print(g4.get_output())
 
 main()
+
+# https://runestone.academy/ns/books/published/pythonds3/Introduction/ObjectOrientedProgramminginPythonDefiningClasses.html#inheritance-logic-gates-and-circuits

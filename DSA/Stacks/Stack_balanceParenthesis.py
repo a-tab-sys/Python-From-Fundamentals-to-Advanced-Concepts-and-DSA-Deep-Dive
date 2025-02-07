@@ -19,7 +19,7 @@
 # as long as you can keep popping the stack to remove mathed opening symbols - string is balanced
 # at the end of the string - an empty stack is a balanced one
 
-from Stack_endBeginning import Stack
+from DSA.Stacks.Stack_implementEndBeginning import Stack
 #from module.submodule import class
 #from file import class
 

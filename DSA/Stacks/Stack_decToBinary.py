@@ -1,4 +1,4 @@
-from Stack_endBeginning import Stack
+from DSA.Stacks.Stack_implementEndBeginning import Stack
 
 
 def divide_by_2(decimal_num):

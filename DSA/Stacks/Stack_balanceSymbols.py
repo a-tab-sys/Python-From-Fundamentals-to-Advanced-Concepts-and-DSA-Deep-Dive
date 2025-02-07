@@ -5,7 +5,7 @@
 # ( [ ) ] - unblanced
 # ( ( ( ) ] ) ) - unbalanced
 
-from Stack_endBeginning import Stack
+from DSA.Stacks.Stack_implementEndBeginning import Stack
 
 def balance_checker(symbol_string):
     s = Stack()
