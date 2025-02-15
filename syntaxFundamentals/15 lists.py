@@ -42,3 +42,7 @@ food.sort()
 
     #clears the entire list, removes all elements
 food.clear()
+
+my_list = [1, 2, 3, 4, 5]
+length = len(my_list)
+print(length)  # Output: 5
