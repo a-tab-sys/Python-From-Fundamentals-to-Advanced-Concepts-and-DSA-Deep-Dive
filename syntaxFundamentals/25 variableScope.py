@@ -10,7 +10,7 @@ def display_name():      #created function
 
 name="Bro"      #this is a global scope variable, available inside and outside functions
 
-display _name()      #displays local name variable
+display_name()      #displays local name variable
 print(name)         #displays global name variable
 
 #   if you did not creat a local variable inside the above function, then when you called display_name()
