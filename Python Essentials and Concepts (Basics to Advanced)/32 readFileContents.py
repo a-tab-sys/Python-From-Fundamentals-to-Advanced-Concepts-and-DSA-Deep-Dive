@@ -8,3 +8,4 @@ except FileNotFoundError:
     print("that file wasnt found")
     
 print(file.closed)  #checks that file is closed
+
