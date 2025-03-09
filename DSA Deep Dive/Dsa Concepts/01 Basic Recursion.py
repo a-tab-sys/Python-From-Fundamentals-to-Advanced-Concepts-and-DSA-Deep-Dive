@@ -1,3 +1,14 @@
+# Recursion - when a function calls itself indefinitely until a specified condition is fulfilled
+#           - function is calling the same function inside its body
+#           - a recursiive function is complete once a base case condition is fulfilled and the control return to the parent function
+# f(){
+#    f(); ---> f(){
+# }                 f();
+#                 }
+# 
+# - when recursive calls are executed, theyre stored in a recursion stack where they wait for the completion of the recursive function. without a base condition for a recursive function, it gets called indefinitely which results in stack overflow (exceeding memory limit of the recursion stack)
+
+# Problems -------------------------------------------------------------
 # PRINTING SOMETHING N TIMES
 
 # ONE WAY

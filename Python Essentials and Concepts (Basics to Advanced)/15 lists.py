@@ -46,3 +46,14 @@ food.clear()
 my_list = [1, 2, 3, 4, 5]
 length = len(my_list)
 print(length)  # Output: 5
+
+
+# To print the index of elements in a Python list, you can use the enumerate() function. Here's an example:
+my_list = ['apple', 'banana', 'cherry']
+
+for index, value in enumerate(my_list):
+    print(f"Index: {index}, Value: {value}")
+
+nums=[2,3,4,5,6]
+for i, x in enumerate(nums):
+    print(f"Index: {i}, Value: {x}")
