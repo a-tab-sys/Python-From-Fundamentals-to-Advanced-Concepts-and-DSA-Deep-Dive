@@ -57,3 +57,13 @@ for index, value in enumerate(my_list):
 nums=[2,3,4,5,6]
 for i, x in enumerate(nums):
     print(f"Index: {i}, Value: {x}")
+
+
+print(sum(nums))
+print(max(nums))
+print(nums.index(4))
+nums.remove(4)
+print(nums)
+
+for x in nums:
+    print(x)
