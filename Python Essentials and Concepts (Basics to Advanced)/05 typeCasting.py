@@ -9,6 +9,7 @@ print(z)
 
 print(int(y))
 print(float(z))
+print(str(z))
 
 print(int(z)*3)
 print(z*3)

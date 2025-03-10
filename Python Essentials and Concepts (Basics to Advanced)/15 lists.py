@@ -8,6 +8,9 @@ print(food[2])
 food[0]='sushi'
 print(food[0])
 
+#refer to last element in list
+print("last element: "+food[-1])
+
     #print all items in list
 for x in food:
     print(x)
@@ -67,3 +70,13 @@ print(nums)
 
 for x in nums:
     print(x)
+
+# The .extend() method in Python is used to add 
+# multiple elements from one iterable (like a list, tuple, etc.)
+# to the end of another list. It extends the list in place, 
+# meaning it modifies the original list directly rather than 
+# creating a new one.
+
+list1=[1]
+list1.extend(nums)
+print(list1)
