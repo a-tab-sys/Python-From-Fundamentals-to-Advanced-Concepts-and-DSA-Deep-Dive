@@ -76,7 +76,19 @@ for x in nums:
 # to the end of another list. It extends the list in place, 
 # meaning it modifies the original list directly rather than 
 # creating a new one.
-
 list1=[1]
 list1.extend(nums)
 print(list1)
+
+
+#to swap list elements use tuple unpacking
+my_list = [10, 20, 30, 40, 50]
+my_list[1], my_list[3] = my_list[3], my_list[1]
+
+print(my_list)
+
+
+#reverse a list
+coolList=[2,3,4,5,6]
+coolList.reverse()
+print(coolList)
