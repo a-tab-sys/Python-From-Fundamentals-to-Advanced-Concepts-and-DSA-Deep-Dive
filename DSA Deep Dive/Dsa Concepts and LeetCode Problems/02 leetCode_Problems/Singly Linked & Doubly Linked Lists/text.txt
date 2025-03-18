@@ -1,0 +1,7 @@
+Singly linked list is like:
+
+1 -> 2 -> 3
+
+Doubly linked list is like:
+
+1 <-> 2 <-> 3
